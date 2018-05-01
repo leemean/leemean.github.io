@@ -9,7 +9,11 @@
     
     <meta name="author" content="ming li">
     
-    <meta name="description" content="使用Hexo+github搭建个人博客搭建前环境准备安装nodejs安装git注册github并进行配置">
+    <meta name="description" content="搭建前环境准备安装nodejs查看版本看是否安装完毕12node -vnpm -v
+安装git查看版本看是否安装完毕1git --version
+注册github并进行配置
+新建仓库，create a new repository
+repository name 中填写yourname.github">
     
     
     
@@ -79,7 +83,7 @@
     </p>
   <p class="article-time">
     <time datetime="2018-04-30T06:45:00.000Z" itemprop="datePublished">2018-04-30</time>
-    Updated:<time datetime="2018-05-01T06:29:38.535Z" itemprop="dateModified">2018-05-01</time>
+    Updated:<time datetime="2018-05-01T07:16:55.290Z" itemprop="dateModified">2018-05-01</time>
     
   </p>
 </header>
@@ -88,10 +92,29 @@
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#使用Hexo-github搭建个人博客"><span class="toc-number">1.</span> <span class="toc-text">使用Hexo+github搭建个人博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#搭建前环境准备"><span class="toc-number">1.1.</span> <span class="toc-text">搭建前环境准备</span></a></li></ol></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建前环境准备"><span class="toc-number">1.</span> <span class="toc-text">搭建前环境准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装nodejs"><span class="toc-number">1.1.</span> <span class="toc-text">安装nodejs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装git"><span class="toc-number">1.2.</span> <span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注册github并进行配置"><span class="toc-number">1.3.</span> <span class="toc-text">注册github并进行配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo的相关配置"><span class="toc-number">3.</span> <span class="toc-text">Hexo的相关配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化Hexo"><span class="toc-number">3.1.</span> <span class="toc-text">初始化Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#首次体验Hexo"><span class="toc-number">3.2.</span> <span class="toc-text">首次体验Hexo</span></a></li></ol></li></ol>
 		</div>
 		
-		<h2 id="使用Hexo-github搭建个人博客"><a href="#使用Hexo-github搭建个人博客" class="headerlink" title="使用Hexo+github搭建个人博客"></a>使用Hexo+github搭建个人博客</h2><h3 id="搭建前环境准备"><a href="#搭建前环境准备" class="headerlink" title="搭建前环境准备"></a>搭建前环境准备</h3><p>安装nodejs<br>安装git<br>注册github并进行配置</p>
+		<h2 id="搭建前环境准备"><a href="#搭建前环境准备" class="headerlink" title="搭建前环境准备"></a>搭建前环境准备</h2><h3 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h3><p>查看版本看是否安装完毕<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></p>
+<h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p>查看版本看是否安装完毕<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></p>
+<h3 id="注册github并进行配置"><a href="#注册github并进行配置" class="headerlink" title="注册github并进行配置"></a>注册github并进行配置</h3><ul>
+<li>新建仓库，create a new repository</li>
+<li>repository name 中填写<code>yourname.github.io</code></li>
+<li>setting中开启gh-pages功能</li>
+<li>打开网址<code>yourname.github.io</code>就可以访问了</li>
+</ul>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><ul>
+<li>创建并进入一个文件夹，如文件夹hexo <code>cd hexo</code></li>
+<li><p>安装hexo </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看版本</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="Hexo的相关配置"><a href="#Hexo的相关配置" class="headerlink" title="Hexo的相关配置"></a>Hexo的相关配置</h2><h3 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    hexo init</span><br><span class="line">```  </span><br><span class="line">然后输入</span><br><span class="line">```bash</span><br><span class="line">    npm install</span><br></pre></td></tr></table></figure>
+<h3 id="首次体验Hexo"><a href="#首次体验Hexo" class="headerlink" title="首次体验Hexo"></a>首次体验Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>浏览器中打开<code>http:\\localhost:4000</code></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -137,7 +160,7 @@
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">Contents</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#使用Hexo-github搭建个人博客"><span class="toc-number">1.</span> <span class="toc-text">使用Hexo+github搭建个人博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#搭建前环境准备"><span class="toc-number">1.1.</span> <span class="toc-text">搭建前环境准备</span></a></li></ol></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建前环境准备"><span class="toc-number">1.</span> <span class="toc-text">搭建前环境准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装nodejs"><span class="toc-number">1.1.</span> <span class="toc-text">安装nodejs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装git"><span class="toc-number">1.2.</span> <span class="toc-text">安装git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注册github并进行配置"><span class="toc-number">1.3.</span> <span class="toc-text">注册github并进行配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo的相关配置"><span class="toc-number">3.</span> <span class="toc-text">Hexo的相关配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化Hexo"><span class="toc-number">3.1.</span> <span class="toc-text">初始化Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#首次体验Hexo"><span class="toc-number">3.2.</span> <span class="toc-text">首次体验Hexo</span></a></li></ol></li></ol>
   </div>
 
 <div id="asidepart">
